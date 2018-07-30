@@ -33,7 +33,7 @@ forked_evaluator <- function(expr, timelimit) {
   job <- NULL
   start_time <- NULL
   result <- NULL
-  
+  ###ERROR### test test test
   # helper to call a hook function
   call_hook <- function(name, default = NULL) {
     hook <- getOption(paste0("tutorial.exercise.evaluator.", name))
